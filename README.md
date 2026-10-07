@@ -1,4 +1,4 @@
-# Shortly — URL Shortener (Express + PostgreSQL + Next.js)
+# Shortly URL Shortener (Express + PostgreSQL + Next.js)
 
 Shortly is a full-stack link shortening service. It lets anyone paste a long URL and get a short one back instantly, and it lets registered users manage their links from a dashboard, disable or delete them, and see click analytics (browser breakdown, recent activity, daily totals).
 
@@ -68,7 +68,7 @@ Three tables, nothing fancier than it needs to be:
 createdb shortly
 ```
 
-(Or point `DATABASE_URL` at whatever Postgres instance you already have — Supabase, Railway, RDS, a Docker container, doesn't matter.)
+(Or point `DATABASE_URL` at whatever Postgres instance you already have   Supabase, Railway, RDS, a Docker container, doesn't matter.)
 
 ### 2. Backend
 
@@ -77,8 +77,8 @@ cd backend
 cp .env.example .env
 # edit .env — at minimum set DATABASE_URL and JWT_SECRET
 npm install
-npm run migrate     # creates the users/urls/clicks tables
-npm run dev          # starts on http://localhost:5000
+npm run migrate      
+npm run dev         
 ```
 
 ### 3. Frontend
@@ -87,7 +87,7 @@ npm run dev          # starts on http://localhost:5000
 cd frontend
 cp .env.example .env.local
 npm install
-npm run dev          # starts on http://localhost:3000
+npm run dev          
 ```
 
 Open `http://localhost:3000` — you can shorten a link straight away without an account, or sign up to get a dashboard with click tracking.
