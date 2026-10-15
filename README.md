@@ -4,6 +4,10 @@ Shortly is a full-stack link shortening service. It lets anyone paste a long URL
 
 I built this as a complete, production-style example of a small backend service: a REST API with real authentication, a normalized PostgreSQL schema, rate limiting, and a thin Next.js frontend that consumes the API like any other client would. There's no ORM magic hiding what's going on — the data layer is plain SQL through `pg`, so it's easy to read exactly what every endpoint does to the database.
 
+## Diagram Explination for Project 
+
+<img src="/images/diagram.png" width="90" />
+
 ## Why this project exists
 
 Most "URL shortener" tutorials stop at `INSERT` and `redirect`. This one goes a bit further because that's the part that's actually interesting from a backend standpoint:
