@@ -6,7 +6,7 @@ I built this as a complete, production-style example of a small backend service:
 
 ## Diagram Explination for Project 
 
-<img src="/images/diagram.png" width="500" />
+<img src="/images/diagram.png" width="900" />
 
 ## Why this project exists
 
